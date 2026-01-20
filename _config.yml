@@ -2,22 +2,24 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Fazlay Rabby # Your Name
+title: Fazlay Rabby
 first_name: Fazlay
 middle_name:
 last_name: Rabby
 contact_note: >
-  You can contact me via email or LinkedIn.
+  Aspiring Ph.D. Candidate (Fall 2026). Contact me for research collaborations.
 description: >
-  Researcher in Edge AI, TinyML & Healthcare Microsystems. Aspiring Ph.D. Candidate.
+  Researcher in Edge AI, TinyML & Healthcare Microsystems. Founder of Tiny Neurons Research Group.
+  Focusing on resource-constrained microsystems, Cortex-M optimization, and AI-IoT.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: edge-ai, tinyml, biomedical-engineering, research, dhaka # Your specific keywords
+  Based in Dhaka, Bangladesh.
+keywords: tinyml, edge-ai, biomedical-signal-processing, iot, stm32, esp32, lorawan, healthcare-ai
 lang: en
-icon: ⚡️ # I changed the atom to a lightning bolt for "Energy/Power/Electronics"
+icon: ⚡️ # Represents Electronics/Power
 
-url: https://fazlayofficial.github.io # YOUR ACTUAL URL
-baseurl: "" # SUPER IMPORTANT: Keep this empty for your main website!
+url: https://fazlayofficial.github.io
+baseurl: "" # KEEP EMPTY for your main user site
 last_updated: true
 impressum_path:
 back_to_top: true
@@ -26,7 +28,6 @@ back_to_top: true
 # Theme
 # -----------------------------------------------------------------------------
 
-# repo color theme
 repo_theme_light: default
 repo_theme_dark: dark
 repo_trophies:
@@ -49,7 +50,6 @@ socials_in_search: true
 posts_in_search: true
 bib_search: true
 
-# Dimensions
 max_width: 930px
 
 # -----------------------------------------------------------------------------
@@ -73,8 +73,8 @@ bing_site_verification:
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Fazlay's Blog
-blog_description: Thoughts on TinyML, Research, and Systems.
+blog_name: Tiny Neurons Blog
+blog_description: Bridging the gap between AI theory and Silicon.
 permalink: /blog/:year/:title/
 lsi: false
 
@@ -86,7 +86,7 @@ related_blog_posts:
   max_related: 5
 
 giscus:
-  repo: fazlayofficial/fazlayofficial.github.io # I updated this to match your repo
+  repo: fazlayofficial/fazlayofficial.github.io
   repo_id:
   category: Comments
   category_id:
@@ -217,13 +217,14 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories]
 
-display_tags: ["tinyml", "edge-ai", "healthcare", "research"] # Updated for you
-display_categories: ["research"]
+# Tags extracted from your Technical Competencies
+display_tags: ["tinyml", "edge-ai", "stm32", "esp32", "lorawan", "biomedical"]
+display_categories: ["research", "projects"]
 
 # -----------------------------------------------------------------------------
-# Jekyll Scholar (This highlights your name in papers)
+# Jekyll Scholar
 # -----------------------------------------------------------------------------
-
+# This ensures your name is bolded in your publications list
 scholar:
   last_name: [Rabby]
   first_name: [Fazlay]
@@ -301,7 +302,7 @@ enable_bing_verification: false
 enable_masonry: true
 enable_math: true
 enable_tooltips: false
-enable_darkmode: true # Kept true for you
+enable_darkmode: true
 enable_navbar_social: false
 enable_project_categories: true
 enable_medium_zoom: true
@@ -536,17 +537,3 @@ third_party_libraries:
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json
-
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
