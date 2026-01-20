@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Aspiring Ph.D. Candidate</a>. Researcher in Edge AI, TinyML & Healthcare Microsystems.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Tiny Neurons Research Group</p>
+    <p>Dhaka, Bangladesh</p>
+    <p>fazlay.rabby.official@gmail.com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +27,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Electrical and Electronic Engineering graduate with a strong foundation in **Embedded Machine Learning (TinyML)** and **Biomedical Signal Processing**. I am currently leading the **Tiny Neurons Research Group**, where I bridge the gap between Deep Learning theory and resource-constrained hardware implementation.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research focus lies in:
+*   Designing **resource-constrained microsystems** for healthcare monitoring.
+*   Optimizing **Edge AI algorithms** for Cortex-M architectures.
+*   Developing energy-efficient **AI-IoT sensing networks**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I worked as an Application Engineer at **ANTT Robotics Ltd** (Industrial Automation R&D), where I led firmware development for autonomous mobile robots and resolved critical hardware-software synchronization latencies.
+
+I received my Bachelor of Science from the **University of Liberal Arts Bangladesh (ULAB)** with a CGPA of **3.59/4.00**, where I completed my thesis on "Detecting Preeclampsia with ML Algorithms".
+
+I am actively seeking **Ph.D. opportunities for Fall 2026** to further my research in developing cost-effective, energy-efficient microsystems for healthcare in low-resource settings.
