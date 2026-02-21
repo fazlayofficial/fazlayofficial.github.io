@@ -6,7 +6,7 @@ subtitle: "Aspiring Ph.D. Candidate. Researcher in Edge AI, TinyML & Healthcare 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: my.jpeg
   image_circular: false
   more_info: >
     <p>Tiny Neurons Research Group</p>
