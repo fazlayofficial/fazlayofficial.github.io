@@ -13,7 +13,7 @@ selected_papers: true
 social: true
 
 announcements:
-  enabled: true
+  enabled: false # THIS TURNS OFF THE NEWS SECTION
   scrollable: true
   limit: 5
 
