@@ -8,10 +8,6 @@ profile:
   align: right
   image: my.jpeg
   image_circular: false
-  more_info: >
-    <p>Tiny Neurons Research Group</p>
-    <p>Dhaka, Bangladesh</p>
-    <p>fazlay.rabby.official@gmail.com</p>
 
 selected_papers: true
 social: true
