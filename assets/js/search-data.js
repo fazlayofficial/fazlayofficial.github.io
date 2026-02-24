@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-tinysensenet-a-lightweight-semg-imu-fusion-network-using-tinyml",
+        
+          title: "TinySenseNet: A Lightweight sEMG-IMU Fusion Network Using TinyML",
+        
+        description: "Published in IEEE COMPAS 2025: A novel architecture for mechanical arm control in low-resource settings.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/tinysensenet/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
