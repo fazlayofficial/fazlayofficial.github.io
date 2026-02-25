@@ -1,290 +1,217 @@
-{
-  "name": "Fazlay Rabby",
-  "label": "Embedded Machine Learning Researcher",
-  "email": "fazlay.raby@ieee.org",
-  "location": "Dhaka, Bangladesh",
-  "image": "",
-  "summary": "I am an aspiring Ph.D. candidate interested in Embedded Machine Learning (TinyML) and Edge AI, particularly for robotics and healthcare applications. I focus on building efficient AI models that can run directly on small embedded devices such as ARM Cortex M microcontrollers. My work includes reducing model size, designing hardware friendly neural networks, and developing on device learning systems that operate within strict memory and power limits. My goal is to make advanced AI practical for real world use in assistive robotics, wearable health devices, industrial systems, and computer vision based behavior analysis, especially in environments where internet access or cloud computing is limited or unavailable.",
-  "social_networks": [],
-  "address": {
-    "street": "",
-    "city": "Dhaka",
-    "region": "Dhaka Division",
-    "postalCode": "",
-    "countryCode": "BD"
-  },
-  "sections": {
-    "Education": [
-      {
-        "institution": "University of Liberal Arts Bangladesh (ULAB)",
-        "location": "Dhaka, Bangladesh",
-        "url": "",
-        "area": "Electrical and Electronic Engineering",
-        "studyType": "Bachelor of Science",
-        "start_date": "2020-01",
-        "end_date": "2024-02",
-        "score": "CGPA: 3.59 / 4.00",
-        "courses": "Digital Signal Processing, Analog Integrated Circuits, Microprocessor & Embedded Systems, Control Systems, VLSI Design",
-        "highlights": [
-          "Thesis: Detecting Preeclampsia with Machine Learning Algorithms (Supervised by Dr. A.B.M. Sayeed Ud Doulah)"
-        ]
-      }
-    ],
-    "Experience": [
-      {
-        "company": "Stamford University Bangladesh",
-        "position": "IoT & TinyML Instructor (Part-time, Onsite)",
-        "location": "Dhaka, Bangladesh",
-        "start_date": "2025-10",
-        "end_date": null,
-        "summary": "Designing a comprehensive Machine Learning curriculum for undergraduate engineering students with emphasis on embedded AI applications.",
-        "highlights": [
-          "Supervising student research projects on practical ML model development, optimization, and edge deployment.",
-          "Mentored 20+ undergraduate students, leading to 5+ conference-level research projects and 2 publications in preparation.",
-          "Delivered a guest seminar titled 'Bridging AI and EEE: Intelligent Solutions for Modern Engineering,' highlighting TinyML applications in IoT."
-        ]
-      },
-      {
-        "company": "ANTT Robotics Ltd (Industrial Automation R&D)",
-        "position": "Application Engineer",
-        "location": "Dhaka, Bangladesh",
-        "start_date": "2023-05",
-        "end_date": "2024-09",
-        "summary": "Led firmware development for industrial AMRs (Autonomous Mobile Robots), integrating motor control with IoT dashboards.",
-        "highlights": [
-          "Resolved critical hardware-software synchronization latency, ensuring reliable operation in noise-heavy factory environments."
-        ]
-      },
-      {
-        "company": "University of Liberal Arts Bangladesh (ULAB)",
-        "position": "Graduate and Undergraduate Teaching Assistant",
-        "location": "Dhaka, Bangladesh",
-        "start_date": "2022-01",
-        "end_date": "2024-02",
-        "summary": "Assisted in teaching EEE 308 (Microcontroller Programming) and EEE 203 (Digital Electronics) to 60+ undergraduate students.",
-        "highlights": [
-          "Designed and supervised laboratory sessions emphasizing hands-on development with ARM Cortex-M microcontrollers, including interrupt handling, ADC/DAC peripherals, and communication protocols (SPI, I2C, UART)."
-        ]
-      }
-    ],
-    "Volunteer": [],
-    "Awards": [
-      {
-        "title": "IEEE R10 Ethics Champion",
-        "authors": [],
-        "date": "2024",
-        "awarder": "IEEE Region 10 EAAC",
-        "url": "",
-        "summary": "Awarded for ethical leadership with score above 70%."
-      },
-      {
-        "title": "Richard E. Merwin Scholar",
-        "authors": [],
-        "date": "2023",
-        "awarder": "IEEE Computer Society",
-        "url": "",
-        "summary": "Prestigious grant for academic excellence."
-      },
-      {
-        "title": "Best Paper Award - Scalable Hand Gesture Recognition from Surface Electromyography (sEMG) Signals Using a Hybrid Deep Learning Model",
-        "authors": [
-          "F. Rabby",
-          "R. Das",
-          "M.M. Rahman",
-          "M.H. Hossain",
-          "M.R. Aknda"
-        ],
-        "date": "2025",
-        "awarder": "9th International Conference on Electrical, Electronics and Information Engineering (ICEEIE)",
-        "url": "https://doi.org/10.1109/ICEEIE.2025.11252161",
-        "summary": "Achieved 97% accuracy with 616K parameters; introduced a novel benchmark dataset from 26 participants."
-      }
-    ],
-    "Publications": [
-      {
-        "title": "A Pilot Feasibility Study of a Secure, Low-Latency LoRaWAN Wearable for Elderly Care in Resource-Constrained Environments",
-        "authors": [
-          "F. Rabby",
-          "M.A. Azim",
-          "A.B.M.S.U. Doulah"
-        ],
-        "publisher": "Wiley Engineering Reports",
-        "releaseDate": "2025",
-        "url": "",
-        "summary": "Under review"
-      },
-      {
-        "title": "TinySenseNet: A Lightweight sEMG-IMU Fusion Network Using TinyML for Mechanical Arm Control in Low-Resource Settings",
-        "authors": [
-          "F. Rabby",
-          "M.R. Aknda",
-          "M.T. Mahi",
-          "S.R.A. Ratul",
-          "B.Z. Shezan"
-        ],
-        "publisher": "2025 IEEE 2nd Int'l Conf. on Computing, Applications and Systems (COMPAS)",
-        "releaseDate": "2025",
-        "url": "https://doi.org/10.1109/COMPAS.2025.11381831",
-        "summary": "Achieved 97.2% accuracy with 1.46 KB model size and 23.8 ms latency, outperforming CNN/LSTM baselines on ESP32"
-      },
-      {
-        "title": "Scalable Hand Gesture Recognition from Surface Electromyography (sEMG) Signals Using a Hybrid Deep Learning Model Evaluated on Diverse Datasets",
-        "authors": [
-          "F. Rabby",
-          "R. Das",
-          "M.M. Rahman",
-          "M.H. Hossain",
-          "M.R. Aknda"
-        ],
-        "publisher": "2025 9th Int'l Conf. on Electrical, Electronics and Information Engineering (ICEEIE)",
-        "releaseDate": "2025",
-        "url": "https://doi.org/10.1109/ICEEIE.2025.11252161",
-        "summary": "Best Paper Award; Achieved 97% accuracy with 616K parameters; Introduced a novel benchmark dataset from 26 participants"
-      },
-      {
-        "title": "A Parameter-Efficient Deep Learning Model for Preeclampsia Prediction Using Diverse Datasets in Low-Resource Settings",
-        "authors": [
-          "F. Rabby",
-          "M.M. Rahman",
-          "R. Das",
-          "M.H. Hossain",
-          "A.B.M.S.U. Doulah"
-        ],
-        "publisher": "2025 Int'l Conf. on Quantum Photonics, AI, and Networking (QPAIN)",
-        "releaseDate": "2025",
-        "url": "https://doi.org/10.1109/QPAIN.2025.11172026",
-        "summary": "Proposed TabM architecture achieving 0.975 AUC; Utilized SHAP-based interpretability and domain adaptation for edge deployment"
-      },
-      {
-        "title": "Preeclampsia Prediction Using Machine Learning with Electronic Medical Records in Low-Resource Settings",
-        "authors": [
-          "F. Rabby",
-          "A.B.M.S.U. Doulah"
-        ],
-        "publisher": "2025 2nd Int'l Conf. on Next-Generation Computing, IoT and Machine Learning (NCIM)",
-        "releaseDate": "2025",
-        "url": "https://doi.org/10.1109/NCIM.2025.11160134",
-        "summary": "Evaluated CatBoost and ensemble models achieving 0.999 AUC and 0.98 F1-score for clinical decision support systems"
-      },
-      {
-        "title": "Scalable sEMG-Based User-Independent Deep Learning Framework for Assistive Wheelchair Control",
-        "authors": [
-          "F. Rabby",
-          "R. Das",
-          "M. Rahman",
-          "M.H. Hossain",
-          "R.A. Samir"
-        ],
-        "publisher": "Taylor & Francis (BIM2025 Proceedings)",
-        "releaseDate": "2025",
-        "url": "",
-        "summary": "Accepted; Implemented a CNN-BiLSTM-Attention model achieving 97% LOO-CV accuracy and 30.5W power efficiency on ESP32"
-      },
-      {
-        "title": "Early-Stage Coronary Artery Disease Prediction Using Coronary Angiogram for Stenosis Detection in Low-Resource Settings",
-        "authors": [
-          "F. Rabby",
-          "M.M. Rahman",
-          "R. Das",
-          "M.H. Hossain",
-          "R.A. Samir",
-          "S.H. Farhaan"
-        ],
-        "publisher": "Taylor & Francis (BIM2025 Proceedings)",
-        "releaseDate": "2025",
-        "url": "",
-        "summary": "Accepted; Dual-branch EfficientNet-B0 + CBAM architecture achieving 99.75% accuracy with Bayesian-refined Grad-CAM interpretability"
-      }
-    ],
-    "Skills": [
-      {
-        "name": "Edge AI & ML",
-        "level": "",
-        "icon": "",
-        "keywords": "TinyML, TensorFlow Lite for Microcontrollers, Edge Impulse, PyTorch, Model Quantization (PTQ/QAT)"
-      },
-      {
-        "name": "Hardware Platforms",
-        "level": "",
-        "icon": "",
-        "keywords": "STM32 (ARM Cortex-M4/M7), ESP32, LoRaWAN (SX1278), Biomedical Sensors (EMG/ECG)"
-      },
-      {
-        "name": "Software & Tools",
-        "level": "",
-        "icon": "",
-        "keywords": "Python, C/C++ (Embedded), MATLAB, VS Code, Git, Proteus, KiCAD"
-      },
-      {
-        "name": "Lab Equipment",
-        "level": "",
-        "icon": "",
-        "keywords": "Digital Oscilloscopes, Function Generators, Soldering (SMD)"
-      }
-    ],
-    "Languages": [
-      {
-        "name": "English",
-        "summary": "Fluent (Professional working proficiency)"
-      },
-      {
-        "name": "Bengali",
-        "summary": "Native"
-      }
-    ],
-    "Interests": [
-      {
-        "name": "Research Interests",
-        "icon": "",
-        "keywords": "Embedded Machine Learning, TinyML, Edge AI, Robotics, Healthcare Applications, Computer Vision, Behavior Analysis"
-      }
-    ],
-    "Certificates": [],
-    "Projects": [
-      {
-        "name": "Quantifying Sustained Attention and Distraction in Children with ADHD Using Augmented Reality Literacy Tasks and Automated Computer Vision",
-        "summary": "Developed an automated computer vision framework to quantify sustained attention duration and distraction frequency in children with ADHD during augmented reality-based literacy tasks. Processed video streams from an AR literacy application (3D letter and object overlays on iPad) to train supervised models on annotated datasets, enabling real-time, annotation-free behavioral analysis. Implemented deep learning pipelines for gaze estimation, head-pose tracking, and behavioral feature extraction to facilitate objective ADHD assessment without manual observation.",
-        "highlights": [
-          "Role: Collaborator",
-          "Supervisor: Dr. A.B.M. Sayeed Ud Doulah",
-          "Tech: Python, OpenCV, MediaPipe, TensorFlow/Keras, Machine Learning, AR"
-        ],
-        "start_date": "",
-        "end_date": ""
-      },
-      {
-        "name": "Adaptive TinyML-Based sEMG Wheelchair Control System",
-        "summary": "Designing an Adaptive TinyML framework to control a robotic wheelchair using Surface Electromyography (sEMG) signals. Implementing a lightweight Convolutional Neural Network (CNN) on an Esp32 edge device, utilizing int8 quantization to reduce model footprint by 65%. Optimized the system for real-time inference with latency <100ms, enabling fluid motor control for disabled users. Addressing \"concept drift\" in bio-signals by experimenting with on-device transfer learning techniques.",
-        "highlights": [
-          "Role: Hardware Lead",
-          "Tech: TinyML, Edge Impulse, EMG Sensors"
-        ],
-        "start_date": "",
-        "end_date": ""
-      },
-      {
-        "name": "SmartBowel Wear: Textile-Based Colorectal Cancer Risk Stratification",
-        "summary": "Designing a wearable belt integrating MEMS acoustic sensors for continuous bowel sound monitoring with on-device DSP and TinyML-based classification. Developing a preprocessing pipeline (bandpass filtering, spectrogram generation) optimized using Cortex-M7 SIMD instructions for real-time edge inference. Training lightweight CNN architectures for colorectal cancer risk stratification targeting deployment in low-resource and underserved populations.",
-        "highlights": [
-          "Role: Collaborator",
-          "Supervisor: Dr. A.B.M. Sayeed Ud Doulah",
-          "Tech: STM32H7 (Cortex-M7), C/C++, MEMS Microphones, Bluetooth LE, DSP, TinyML"
-        ],
-        "start_date": "",
-        "end_date": ""
-      }
-    ],
-    "References": [
-      {
-        "name": "Dr. Nafees Mansoor",
-        "icon": "",
-        "reference": "Professor, Dept. of CSE, University of Liberal Arts Bangladesh\nEmail: nafees.mansoor@ulab.edu.bd\nPhone: +880 1819 242 323"
-      },
-      {
-        "name": "Dr. Abul Barkat Mollah Sayeed Ud Doulah",
-        "icon": "",
-        "reference": "Associate Professor, Dept. of EEE, Southeast University\nEmail: sayeed.doulah@seu.edu.bd\nPhone: +880 1936 510 317"
-      }
-    ]
-  }
-}
+name: Fazlay Rabby
+label: Embedded Machine Learning Researcher
+email: fazlay.raby@ieee.org
+location: Dhaka, Bangladesh
+image: ""
+summary: >
+  I am an aspiring Ph.D. candidate interested in Embedded Machine Learning (TinyML) and Edge AI, particularly for robotics and healthcare applications. I focus on building efficient AI models that can run directly on small embedded devices such as ARM Cortex M microcontrollers. My work includes reducing model size, designing hardware friendly neural networks, and developing on device learning systems that operate within strict memory and power limits. My goal is to make advanced AI practical for real world use in assistive robotics, wearable health devices, industrial systems, and computer vision based behavior analysis, especially in environments where internet access or cloud computing is limited or unavailable.
+social_networks: []
+address:
+  street: ""
+  city: Dhaka
+  region: Dhaka Division
+  postalCode: ""
+  countryCode: BD
+sections:
+  Education:
+    - institution: University of Liberal Arts Bangladesh (ULAB)
+      location: Dhaka, Bangladesh
+      url: ""
+      area: Electrical and Electronic Engineering
+      studyType: Bachelor of Science
+      start_date: 2020-01
+      end_date: 2024-02
+      score: "CGPA: 3.59 / 4.00"
+      courses: "Digital Signal Processing, Analog Integrated Circuits, Microprocessor & Embedded Systems, Control Systems, VLSI Design"
+      highlights:
+        - "Thesis: Detecting Preeclampsia with Machine Learning Algorithms (Supervised by Dr. A.B.M. Sayeed Ud Doulah)"
+  Experience:
+    - company: Stamford University Bangladesh
+      position: "IoT & TinyML Instructor (Part-time, Onsite)"
+      location: Dhaka, Bangladesh
+      start_date: 2025-10
+      end_date: 
+      summary: "Designing a comprehensive Machine Learning curriculum for undergraduate engineering students with emphasis on embedded AI applications."
+      highlights:
+        - "Supervising student research projects on practical ML model development, optimization, and edge deployment."
+        - "Mentored 20+ undergraduate students, leading to 5+ conference-level research projects and 2 publications in preparation."
+        - "Delivered a guest seminar titled 'Bridging AI and EEE: Intelligent Solutions for Modern Engineering,' highlighting TinyML applications in IoT."
+    - company: ANTT Robotics Ltd (Industrial Automation R&D)
+      position: Application Engineer
+      location: Dhaka, Bangladesh
+      start_date: 2023-05
+      end_date: 2024-09
+      summary: "Led firmware development for industrial AMRs (Autonomous Mobile Robots), integrating motor control with IoT dashboards."
+      highlights:
+        - "Resolved critical hardware-software synchronization latency, ensuring reliable operation in noise-heavy factory environments."
+    - company: University of Liberal Arts Bangladesh (ULAB)
+      position: Graduate and Undergraduate Teaching Assistant
+      location: Dhaka, Bangladesh
+      start_date: 2022-01
+      end_date: 2024-02
+      summary: "Assisted in teaching EEE 308 (Microcontroller Programming) and EEE 203 (Digital Electronics) to 60+ undergraduate students."
+      highlights:
+        - "Designed and supervised laboratory sessions emphasizing hands-on development with ARM Cortex-M microcontrollers, including interrupt handling, ADC/DAC peripherals, and communication protocols (SPI, I2C, UART)."
+  Volunteer: []
+  Awards:
+    - title: IEEE R10 Ethics Champion
+      authors: []
+      date: "2024"
+      awarder: IEEE Region 10 EAAC
+      url: ""
+      summary: "Awarded for ethical leadership with score above 70%."
+    - title: Richard E. Merwin Scholar
+      authors: []
+      date: "2023"
+      awarder: IEEE Computer Society
+      url: ""
+      summary: "Prestigious grant for academic excellence."
+    - title: "Best Paper Award - Scalable Hand Gesture Recognition from Surface Electromyography (sEMG) Signals Using a Hybrid Deep Learning Model"
+      authors:
+        - F. Rabby
+        - R. Das
+        - M.M. Rahman
+        - M.H. Hossain
+        - M.R. Aknda
+      date: "2025"
+      awarder: "9th International Conference on Electrical, Electronics and Information Engineering (ICEEIE)"
+      url: "https://doi.org/10.1109/ICEEIE.2025.11252161"
+      summary: "Achieved 97% accuracy with 616K parameters; introduced a novel benchmark dataset from 26 participants."
+  Publications:
+    - title: "A Pilot Feasibility Study of a Secure, Low-Latency LoRaWAN Wearable for Elderly Care in Resource-Constrained Environments"
+      authors:
+        - F. Rabby
+        - M.A. Azim
+        - A.B.M.S.U. Doulah
+      publisher: Wiley Engineering Reports
+      releaseDate: "2025"
+      url: ""
+      summary: "Under review"
+    - title: "TinySenseNet: A Lightweight sEMG-IMU Fusion Network Using TinyML for Mechanical Arm Control in Low-Resource Settings"
+      authors:
+        - F. Rabby
+        - M.R. Aknda
+        - M.T. Mahi
+        - S.R.A. Ratul
+        - B.Z. Shezan
+      publisher: "2025 IEEE 2nd Int'l Conf. on Computing, Applications and Systems (COMPAS)"
+      releaseDate: "2025"
+      url: "https://doi.org/10.1109/COMPAS.2025.11381831"
+      summary: "Achieved 97.2% accuracy with 1.46 KB model size and 23.8 ms latency, outperforming CNN/LSTM baselines on ESP32"
+    - title: "Scalable Hand Gesture Recognition from Surface Electromyography (sEMG) Signals Using a Hybrid Deep Learning Model Evaluated on Diverse Datasets"
+      authors:
+        - F. Rabby
+        - R. Das
+        - M.M. Rahman
+        - M.H. Hossain
+        - M.R. Aknda
+      publisher: "2025 9th Int'l Conf. on Electrical, Electronics and Information Engineering (ICEEIE)"
+      releaseDate: "2025"
+      url: "https://doi.org/10.1109/ICEEIE.2025.11252161"
+      summary: "Best Paper Award; Achieved 97% accuracy with 616K parameters; Introduced a novel benchmark dataset from 26 participants"
+    - title: "A Parameter-Efficient Deep Learning Model for Preeclampsia Prediction Using Diverse Datasets in Low-Resource Settings"
+      authors:
+        - F. Rabby
+        - M.M. Rahman
+        - R. Das
+        - M.H. Hossain
+        - A.B.M.S.U. Doulah
+      publisher: "2025 Int'l Conf. on Quantum Photonics, AI, and Networking (QPAIN)"
+      releaseDate: "2025"
+      url: "https://doi.org/10.1109/QPAIN.2025.11172026"
+      summary: "Proposed TabM architecture achieving 0.975 AUC; Utilized SHAP-based interpretability and domain adaptation for edge deployment"
+    - title: "Preeclampsia Prediction Using Machine Learning with Electronic Medical Records in Low-Resource Settings"
+      authors:
+        - F. Rabby
+        - A.B.M.S.U. Doulah
+      publisher: "2025 2nd Int'l Conf. on Next-Generation Computing, IoT and Machine Learning (NCIM)"
+      releaseDate: "2025"
+      url: "https://doi.org/10.1109/NCIM.2025.11160134"
+      summary: "Evaluated CatBoost and ensemble models achieving 0.999 AUC and 0.98 F1-score for clinical decision support systems"
+    - title: "Scalable sEMG-Based User-Independent Deep Learning Framework for Assistive Wheelchair Control"
+      authors:
+        - F. Rabby
+        - R. Das
+        - M. Rahman
+        - M.H. Hossain
+        - R.A. Samir
+      publisher: "Taylor & Francis (BIM2025 Proceedings)"
+      releaseDate: "2025"
+      url: ""
+      summary: "Accepted; Implemented a CNN-BiLSTM-Attention model achieving 97% LOO-CV accuracy and 30.5W power efficiency on ESP32"
+    - title: "Early-Stage Coronary Artery Disease Prediction Using Coronary Angiogram for Stenosis Detection in Low-Resource Settings"
+      authors:
+        - F. Rabby
+        - M.M. Rahman
+        - R. Das
+        - M.H. Hossain
+        - R.A. Samir
+        - S.H. Farhaan
+      publisher: "Taylor & Francis (BIM2025 Proceedings)"
+      releaseDate: "2025"
+      url: ""
+      summary: "Accepted; Dual-branch EfficientNet-B0 + CBAM architecture achieving 99.75% accuracy with Bayesian-refined Grad-CAM interpretability"
+  Skills:
+    - name: Edge AI & ML
+      level: ""
+      icon: ""
+      keywords: "TinyML, TensorFlow Lite for Microcontrollers, Edge Impulse, PyTorch, Model Quantization (PTQ/QAT)"
+    - name: Hardware Platforms
+      level: ""
+      icon: ""
+      keywords: "STM32 (ARM Cortex-M4/M7), ESP32, LoRaWAN (SX1278), Biomedical Sensors (EMG/ECG)"
+    - name: Software & Tools
+      level: ""
+      icon: ""
+      keywords: "Python, C/C++ (Embedded), MATLAB, VS Code, Git, Proteus, KiCAD"
+    - name: Lab Equipment
+      level: ""
+      icon: ""
+      keywords: "Digital Oscilloscopes, Function Generators, Soldering (SMD)"
+  Languages:
+    - name: English
+      summary: "Fluent (Professional working proficiency)"
+    - name: Bengali
+      summary: "Native"
+  Interests:
+    - name: Research Interests
+      icon: ""
+      keywords: "Embedded Machine Learning, TinyML, Edge AI, Robotics, Healthcare Applications, Computer Vision, Behavior Analysis"
+  Certificates: []
+  Projects:
+    - name: "Quantifying Sustained Attention and Distraction in Children with ADHD Using Augmented Reality Literacy Tasks and Automated Computer Vision"
+      summary: "Developed an automated computer vision framework to quantify sustained attention duration and distraction frequency in children with ADHD during augmented reality-based literacy tasks. Processed video streams from an AR literacy application (3D letter and object overlays on iPad) to train supervised models on annotated datasets, enabling real-time, annotation-free behavioral analysis. Implemented deep learning pipelines for gaze estimation, head-pose tracking, and behavioral feature extraction to facilitate objective ADHD assessment without manual observation."
+      highlights:
+        - "Role: Collaborator"
+        - "Supervisor: Dr. A.B.M. Sayeed Ud Doulah"
+        - "Tech: Python, OpenCV, MediaPipe, TensorFlow/Keras, Machine Learning, AR"
+      start_date: ""
+      end_date: ""
+    - name: "Adaptive TinyML-Based sEMG Wheelchair Control System"
+      summary: "Designing an Adaptive TinyML framework to control a robotic wheelchair using Surface Electromyography (sEMG) signals. Implementing a lightweight Convolutional Neural Network (CNN) on an Esp32 edge device, utilizing int8 quantization to reduce model footprint by 65%. Optimized the system for real-time inference with latency <100ms, enabling fluid motor control for disabled users. Addressing \"concept drift\" in bio-signals by experimenting with on-device transfer learning techniques."
+      highlights:
+        - "Role: Hardware Lead"
+        - "Tech: TinyML, Edge Impulse, EMG Sensors"
+      start_date: ""
+      end_date: ""
+    - name: "SmartBowel Wear: Textile-Based Colorectal Cancer Risk Stratification"
+      summary: "Designing a wearable belt integrating MEMS acoustic sensors for continuous bowel sound monitoring with on-device DSP and TinyML-based classification. Developing a preprocessing pipeline (bandpass filtering, spectrogram generation) optimized using Cortex-M7 SIMD instructions for real-time edge inference. Training lightweight CNN architectures for colorectal cancer risk stratification targeting deployment in low-resource and underserved populations."
+      highlights:
+        - "Role: Collaborator"
+        - "Supervisor: Dr. A.B.M. Sayeed Ud Doulah"
+        - "Tech: STM32H7 (Cortex-M7), C/C++, MEMS Microphones, Bluetooth LE, DSP, TinyML"
+      start_date: ""
+      end_date: ""
+  References:
+    - name: "Dr. Nafees Mansoor"
+      icon: ""
+      reference: |
+        Professor, Dept. of CSE, University of Liberal Arts Bangladesh
+        Email: nafees.mansoor@ulab.edu.bd
+        Phone: +880 1819 242 323
+    - name: "Dr. Abul Barkat Mollah Sayeed Ud Doulah"
+      icon: ""
+      reference: |
+        Associate Professor, Dept. of EEE, Southeast University
+        Email: sayeed.doulah@seu.edu.bd
+        Phone: +880 1936 510 317
