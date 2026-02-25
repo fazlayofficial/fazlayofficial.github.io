@@ -58,21 +58,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-tinysensenet-a-lightweight-semg-imu-fusion-network-using-tinyml",
+        },{id: "post-tinysensenet-a-lightweight-semg-imu-fusion-network-using-tinyml",
         
           title: "TinySenseNet: A Lightweight sEMG-IMU Fusion Network Using TinyML",
         
