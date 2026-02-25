@@ -23,8 +23,6 @@ latest_posts:
   limit: 3
 ---
 
-# Fazlay Rabby's Homepage
-
 Welcome! I am **Fazlay Rabby**, working on **Embedded Machine Learning (TinyML)**, **Edge AI**, and their applications in robotics and healthcare systems.
 
 My research focuses on deploying deep learning models on resource-constrained embedded systems—enabling intelligent systems to operate on microcontrollers without cloud connectivity. I work on model compression, hardware-aware neural architectures, and real-time biosignal processing for assistive robotics, wearable health monitors, and industrial automation.
