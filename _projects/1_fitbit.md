@@ -16,7 +16,7 @@ Individuals with Autism Spectrum Disorder (ASD) frequently exhibit characteristi
 
 ## System Architecture
 
-```text
+
 ┌──────────────────────────────────┐
 │      Fitbit Versa 3 (Watch)      │
 │  Continuous accelerometer        │
@@ -44,7 +44,7 @@ Individuals with Autism Spectrum Disorder (ASD) frequently exhibit characteristi
 fitbit-app/ — Fitbit OS watch app (JavaScript); handles accelerometer sampling and binary on-device storage.
 android-app/ — Android companion server; manages Fitbit File Transfer API communication and CSV conversion.
 analysis/ — Jupyter Notebook pipeline; data cleaning, descriptive statistics, and signal visualization.
-Data Collection
+## Data Collection
 Sensor Configuration
 Parameter	Value
 Device	Fitbit Versa 3
@@ -53,27 +53,29 @@ Axes	X — lateral, Y — vertical, Z — anteroposterior
 Scalar	500 (resolution: 0.002 m/s²)
 Storage Encoding	Binary Int16 (4× efficiency over plain text)
 Output Format	CSV — Timestamp, X, Y, Z
-Pilot Dataset Statistics
+## Pilot Dataset Statistics
 (n = 1,080 accelerometer records)
 Axis	Mean (m/s²)	Std Dev	Min	Max
 X	−0.11	2.45	−14.59	8.12
 Y	6.32	2.24	−6.76	17.93
 Z	7.12	2.49	−18.14	15.67
-Setup & Deployment
+## Setup & Deployment
 Prerequisites
 Node.js (v14+) and Fitbit SDK CLI for watch app compilation.
 Android Studio to build and deploy the mobile data-bridge server.
 Python 3.x with pandas, numpy, and matplotlib.
-Data Collection Workflow
+## Data Collection Workflow
 Launch the android-fitbit-fetcher server on the paired smartphone.
 Open Accel Fetcher on the Fitbit Versa 3 and press START RECORDING.
 After the session, press TRANSFER TO PHONE.
 In the server app, tap GET DATA and save the CSV.
 Load into analysis/fitbit_analysis.ipynb for processing.
-Attribution & Acknowledgments
+## Attribution & Acknowledgments
 This pipeline builds upon the binary data transfer infrastructure of fitbit-accel-fetcher by gondwanasoft.
 Key modifications:
 Adapted for ASD behavioral monitoring and motor signature analysis.
 Custom Python signal processing and analysis pipeline.
 Structured for academic reproducibility in Biomedical Signal Processing research.
-Ethics & Privacy: All data collection follows institutional research ethics protocols. No raw participant data is included in this repository. Only anonymized sample records are provided for reproducibility.
+
+## Ethics & Privacy: 
+All data collection follows institutional research ethics protocols. No raw participant data is included in this repository. Only anonymized sample records are provided for reproducibility.
