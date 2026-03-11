@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of my cool projects.
+description: A showcase of my ongoing and completed research projects.
 nav: true
 nav_order: 3
-display_categories: [On Going, completed]
+display_categories:[Ongoing, Completed]
 horizontal: false
 ---
 
